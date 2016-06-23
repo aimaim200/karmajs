@@ -72,7 +72,7 @@ module.exports = function(config) {
     // how many browser should be started simultaneous
   
       coverageReporter :{
-        type: 'lcov',
+        type: 'cobertura',
       },
   })
 }
