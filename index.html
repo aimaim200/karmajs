@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sweet Application</title>
+
+  <!-- 3rd party libs -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <script src="UserTemplate.js"></script>
+  <script src="UserStorage.js"></script>
+  <script src="UserModel.js"></script>
+  <script src="UserController.js"></script>
+  <script src="UserView.js"></script>
+
+  <script>
+  // onload wire it all up and start
+  $(function() { 
+    var userStorage = new AjaxStorage();
+    var userController = new UserController(userStorage);
+    var userView = new UserView(userController);
+
+    // get this party started
+    userView.appendUser(new UserModel({
+      id: 07,
+      name: 'kennedy',
+      email: 'kennedy@axelisys.co.uk',
+      favoriteColor: 'Blue',
+    }));
+    userView.appendUser(new UserModel({
+      id: 06,
+      name: 'Ethar',
+      email: 'Ethar@gaxelisys.co.uk',
+      favoriteColor: 'Black',
+    }));
+
+  });</script>
+</head>
+
+<body>
+  <div id="users"></div>
+</body>
+</html>

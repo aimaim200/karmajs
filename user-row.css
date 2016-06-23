@@ -1,0 +1,22 @@
+.user-row {
+  border: 2px solid purple;
+  margin-bottom: 10px;
+  border-radius: 22px;
+  font-size: 55px;
+}
+
+.user-row span {
+  padding-left: 20px;
+}
+
+.user-id {
+  font-size: 22px;
+}
+
+.user-name {
+  color: green;
+}
+
+.user-email {
+  font-style: italic;
+}

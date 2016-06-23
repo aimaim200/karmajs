@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 51.0.2704 (Mac OS X 10.11.3)" package="" timestamp="2016-06-23T14:04:47" id="0" hostname="kennedys-MacBook-Pro.local" tests="5" errors="0" failures="0" time="0.054">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"/>
+  </properties>
+  <testcase name="jquery fixtures sets up events" time="0.024" classname="Chrome_51_0_2704_(Mac_OS_X_10_11_3).jquery fixtures"/>
+  <testcase name="jquery fixtures fills out template" time="0.006" classname="Chrome_51_0_2704_(Mac_OS_X_10_11_3).jquery fixtures"/>
+  <testcase name="jquery fixtures appends template to DOM" time="0.01" classname="Chrome_51_0_2704_(Mac_OS_X_10_11_3).jquery fixtures"/>
+  <testcase name="jquery fixtures click turn to text field" time="0.008" classname="Chrome_51_0_2704_(Mac_OS_X_10_11_3).jquery fixtures"/>
+  <testcase name="jquery fixtures keypress replaces input text box" time="0.006" classname="Chrome_51_0_2704_(Mac_OS_X_10_11_3).jquery fixtures"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
